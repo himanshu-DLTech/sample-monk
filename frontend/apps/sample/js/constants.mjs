@@ -2,8 +2,8 @@
  * (C) 2015 TekMonks. All rights reserved.
  * License: MIT - see enclosed license.txt file.
  */
-const FRONTEND = "http://{{{hostname}}}:8080";
-const BACKEND = "http://{{{hostname}}}:9090"
+const FRONTEND = "https://{{{hostname}}}:8080";
+const BACKEND = "https://localhost:9090"
 const APP_NAME = "sample";
 const APP_PATH = `${FRONTEND}/apps/${APP_NAME}`;
 const CONF_PATH = `${FRONTEND}/apps/${APP_NAME}/conf`;

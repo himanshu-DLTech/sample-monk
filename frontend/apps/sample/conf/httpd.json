@@ -33,7 +33,7 @@
       "httpdHeaders": {
           "Cache-Control": "max-age=604800, must-revalidate, private"
       },
-      "ssl": false,
+      "ssl": true,
       "sslKeyFile": "/home/deep/Documents/SSL/server.key",
       "sslCertFile": "/home/deep/Documents/SSL/server.crt",
       "port": 8080,
