@@ -10,7 +10,7 @@ import {apimanager as apiman} from "/framework/js/apimanager.mjs";
 import {APP_CONSTANTS as AUTO_APP_CONSTANTS} from "./constants.mjs";
 
 const init = async hostname => {
-	console.log(hostname)
+	// console.log(hostname)
 	window.monkshu_env.apps[AUTO_APP_CONSTANTS.APP_NAME] = {};
 
 	const mustache = await router.getMustache();
